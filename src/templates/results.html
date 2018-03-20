@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>This is your nearest MBTA station</title>
+
+	<style type="text/css">
+	h1{font-family: "Comic Sans MS";text-align:center; font-size: 50px; color: black}
+    p{text-align: center; font-size: 30px; font-weight:bold; color: black}
+    body{background: url('http://subwaynut.com/mbta/orange_line/downtown_crossing/downtown_crossing9.jpg'); background-repeat: no-repeat; background-size: 1800px 1000px; }
+		{text-align: center; color: white}
+	h1 span { padding: 0.2em; back-shadow: 0.2em 0 0 rgba(#fff,0.7), -02.em 0 0 rgba(#fff, 0.7);
+    background-color: #fff;
+    background-color: rgba(#fff, 0.7);
+    opacity: 1}
+    p span { padding: 0.2em; back-shadow: 0.2em 0 0 rgba(#fff,0.7), -02.em 0 0 rgba(#fff, 0.7);
+    background-color: #fff;
+    background-color: rgba(#fff, 0.7);
+    opacity: 1}
+	</style>
+	</head>
+
+  <body>
+  <h1> <span>This is your Nearest MBTA Station</span></h1>
+		<p> <span> Thanks for using our app!</span></p>
+    <p><span> Your Nearest Stop is {{stop}}</span></p>
+		<p><span>Approximate Distance: {{distance}} miles</span> </p>
+  </body>
+</html>
